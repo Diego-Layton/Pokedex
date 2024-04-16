@@ -203,7 +203,7 @@ try{
 function fverificar(){
 
   if (nombrePokemon.value != pokemonData.value.name) { 
-    alerta.value="Estas frio mijo"
+    alerta.value="Estas frio viejo"
       verificar.value = true;
 
       setTimeout(function() {
