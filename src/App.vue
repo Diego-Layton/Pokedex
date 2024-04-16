@@ -13,7 +13,7 @@
 
       <q-tabs align="right">
         <button class="juegox" @click="irAJuego()">Cual es ese pokemon?</button>
-
+<button class="juegox2" @click="buscarPokemonAleatorio()">Recargar</button>
       </q-tabs>
     </q-header>
 
@@ -369,6 +369,23 @@ margin-top: 3vmax;
 }
 
 .juegox {
+  background-color: rgb(230, 175, 47);
+  height: auto; 
+  padding: 0,15px; 
+  border-radius: 20px; 
+  margin-top: 8px; 
+  line-height: 2; 
+  cursor: pointer; 
+  color: rgb(13, 25, 197); 
+  font-weight: bold; 
+  margin-right: 2vmin;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+	.juegox2 {
+  position: fixed;
+  right: 6vmax;
+  top:15vmax;
   background-color: rgb(230, 175, 47);
   height: auto; 
   padding: 0,15px; 
