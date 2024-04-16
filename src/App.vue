@@ -260,11 +260,9 @@ width: 75%;
 	box-sizing: border-box;
 }
 
-	body{
-		background-image: url("fondos/fondo.jpg");
-	}
+
 .q-page-container{
- background-image: url("fondos/fondo.jpg");
+ background-image: url("https://img.freepik.com/vector-gratis/fondo-efecto-zoom-degradado_23-2149722799.jpg?w=1380&t=st=1713227547~exp=1713228147~hmac=24eb6300102013d3f787e37d180e3181ddfa4a446fb0e06d9286fe87f0687fd5");
   display: flex;
   justify-content: center;
   height: 100%;
