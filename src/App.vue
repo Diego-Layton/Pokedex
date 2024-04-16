@@ -260,6 +260,9 @@ width: 75%;
 	box-sizing: border-box;
 }
 
+	body{
+		background-image: url("fondos/fondo.jpg");
+	}
 .q-page-container{
  background-image: url("fondos/fondo.jpg");
   display: flex;
