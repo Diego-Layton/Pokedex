@@ -61,16 +61,14 @@
                   <div class="nameId">
                     <label>
                       <p class="parrafo">Nombre del Pokémon</p>
-                      <input type="text" v-model="nombrePokemon" :disabled="adivinado">
+                      <input type="text" v-model="nombrePokemon" :disabled="adivinado" class="inputnombre">
                     </label>
 
                     <button class="juegox" @click="fverificar()">verificar</button>
 <button class="juegox2" @click="buscarPokemonAleatorio()">Recargar</button>
                     
                   </div>
-                  <!-- <div class="contador">
-                    <button class="enviar" @click="enviar()">Enviar</button>
-                  </div> -->
+        
                   <ul class="type" v-if="pokemonData && nombrePokemon === pokemonData.name">
                     <h3>Tipo:</h3>
                     <li v-for="(type, index) in pokemonData.types" :key="index" :class="type.type.name">
@@ -480,7 +478,14 @@ button{
 
 .parrafo{
   padding-top:25%;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.inputnombre{
+  width: 10vmax;
+  height: 2vmax;
+  border-radius: 1vmax;
+}	
 .imagen-1 p{
 font-size: 180%;
 padding-left: 5%;
