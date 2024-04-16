@@ -261,7 +261,7 @@ width: 75%;
 }
 
 .q-page-container{
- background-image: url('fondos/7921445.jpg');
+ background-image: url('fondos/fondo.jpg');
   display: flex;
   justify-content: center;
   height: 100%;
