@@ -13,7 +13,6 @@
 
       <q-tabs align="right">
         <button class="juegox" @click="irAJuego()">Cual es ese pokemon?</button>
-<button class="juegox2" @click="buscarPokemonAleatorio()">Recargar</button>
       </q-tabs>
     </q-header>
 
@@ -66,7 +65,7 @@
                     </label>
 
                     <button class="juegox" @click="fverificar()">verificar</button>
-
+<button class="juegox2" @click="buscarPokemonAleatorio()">Recargar</button>
                     
                   </div>
                   <!-- <div class="contador">
